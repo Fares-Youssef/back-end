@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+
+.navLink {
+    color: #8dc6ff;
+}
+
+body{
+    direction: rtl !important;
+}
+
+#loginPage{
+    direction: ltr;
+}
+.ayhary{
+    direction: ltr !important;
+}
