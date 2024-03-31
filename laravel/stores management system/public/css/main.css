@@ -1,0 +1,139 @@
+.load{
+    display: block;
+}
+.center {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: #0000004c;
+    width: 100%;
+    z-index: 999999;
+}
+
+.wave {
+    width: 5px;
+    height: 100px;
+    background: linear-gradient(45deg, cyan, #000000);
+    margin: 10px;
+    animation: wave 1s linear infinite;
+    border-radius: 20px;
+}
+
+.wave:nth-child(2) {
+    animation-delay: 0.1s;
+}
+
+.wave:nth-child(3) {
+    animation-delay: 0.2s;
+}
+
+.wave:nth-child(4) {
+    animation-delay: 0.3s;
+}
+
+.wave:nth-child(5) {
+    animation-delay: 0.4s;
+}
+
+.wave:nth-child(6) {
+    animation-delay: 0.5s;
+}
+
+.wave:nth-child(7) {
+    animation-delay: 0.6s;
+}
+
+.wave:nth-child(8) {
+    animation-delay: 0.7s;
+}
+
+.wave:nth-child(9) {
+    animation-delay: 0.8s;
+}
+
+.wave:nth-child(10) {
+    animation-delay: 0.9s;
+}
+
+@keyframes wave {
+    0% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+    }
+}
+
+a {
+    font-size: large;
+}
+
+#table thead tr th {
+    background-color: #182433;
+    color: #fff;
+}
+
+#table tbody tr td:first-child {
+    background-color: #182433 !important;
+    color: #fff;
+}
+
+#table tfoot tr td:first-child {
+    background-color: #3a3e43 !important;
+    color: #fff;
+}
+
+#table tfoot tr td {
+    background-color: #a0a2a5 !important;
+    color: #fff;
+    border-color: #000;
+    border-top: solid 1px #000;
+}
+
+#table td {
+    border-color: #000;
+}
+
+
+
+
+#pag nav div:first-child {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#pag nav div:first-child a {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #000;
+    border: none !important;
+    margin: 10px 30px;
+    transition: .2s
+}
+
+#pag nav div:first-child span {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    color: #000;
+    border: none !important;
+    margin: 10px 30px;
+}
+
+#pag nav div:first-child a:hover {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #fff;
+    background-color: #182433 !important;
+    margin: 10px 30px
+}
